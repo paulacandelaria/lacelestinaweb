@@ -1,0 +1,76 @@
+* {
+    margin:0;
+    padding:0;
+    border: none;
+}
+.flexCentered {
+    display: flex ;
+    flex-direction: row ;
+    flex-wrap: wrap ;
+    justify-content: space-around ;
+    align-items: center ;
+    align-content: center ;
+}
+.hi50{
+    height:50px;
+    background-color:rgba(0,0,0,.7);
+    
+}
+.hi50 a{
+    text-decoration: green;
+    color:yellow;
+}
+img {
+    width:700px;
+    height:400px;
+}
+.bigImage {
+    width:400px;
+    height:400px;
+}
+.tinyImage{
+     width:50px;
+    height:50px;
+}
+.hi500{
+    height:500px;
+}
+.hi300{
+    height:300px;
+}
+.hi200{
+    height:200px;
+}
+.hi100{
+    height:100px;
+}
+
+.leftCol {
+    float:left;
+}
+.rightCol {
+    float:right;
+}
+.colWidth12-12 {
+    width:100%;
+}
+.colWidth10-12 {
+    width:83.3%;
+}
+.colWidth8-12 {
+    width:66.6%;
+}
+.colWidth6-12 {
+    width:50%;
+}
+.colWidth4-12 {
+    width:33.3%;
+}
+.colWidth3-12 {
+    width:25%;
+}
+.colWidth2-12 {
+    width:16.6%;
+}
+.colWidth1-12 {
+    width:8.3%;
